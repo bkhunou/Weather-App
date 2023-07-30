@@ -1,6 +1,7 @@
 .container {
   display: flexbox;
   margin: 100px auto;
+  margin-bottom: 0;
   padding: 80px 100px;
   border: 2px solid black;
   border-radius: 50px;
@@ -40,6 +41,13 @@ ul {
   position: relative;
   bottom: 20px;
   right: 3px;
+}
+
+.credit {
+  display: flexbox;
+  margin: 100px auto;
+  margin-top: 20px;
+  padding-inline-start: 200px;
 }
 
 .summary {
