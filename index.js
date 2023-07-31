@@ -9,7 +9,7 @@ let days = [
   "Thursday",
   "Friday",
   "Saturday",
-  "Sunday"
+  "Sunday",
 ];
 let currentDay = days[now.getDay()];
 let currentHour = now.getHours();
